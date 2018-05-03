@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.fondo{
+	width: 100%;
+	height: 100vh;
+	background-image:url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    .container-black{
+	    width: 100%;
+	    height: 100%;
+	    background: rgba(0,0,0,0.5);
+	    display:flex;
+	    align-items:center;
+	    justify-content:center;	
+}
+
+        .caja{
+	        display: flex;
+	        flex-flow:column wrap;
+	        align-items:center;
+        }
+
+            .images{
+                width: 30vw;
+                padding-bottom: 15px;
+	            position:relative;
+	            margin: auto;
+	            z-index:200;
+	            max-width: 500px;
+            }
+
+             .caja h1{
+	            color: #fff8cf;
+	            width: 80%;
+	            text-align: center;
+	            padding: 30px;
+	            font-size: 2em;
+	            font-family: PRIMETIME,sans-serif;
+            }
+
+            .caja p{
+	            font-family: "Century Gothic",sans-serif;
+	            width: 65%;
+	            font-size: 1.25em;
+	            font-weight:light;
+	            letter-spacing: 1px;
+	            text-align: center;
+            }
+
+            .caja b{
+	            padding: 30px;
+	            font-size: 1.5em;
+            }
+
+/**********************************
+|  RESPONSIVE:MOBILE,LAPTOP,PC     |
+ **********************************/
+
+@media screen and(max-width:780px){
+
+    .caja p{
+     width: 60%;
+	 font-size: 0.9em;
+	 text-align-last:center;
+    }
+
+    .caja h1{
+	    width: 100%;
+	    padding: 30px;
+	    font-size: 1.7em;
+	    letter-spacing: 2px;
+    }
+
+    .caja b{
+	    padding: 30px;
+	    font-size: 1.3em;
+    }
+
+    .images{
+        width: 45vw;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and(max-width:500px){
+
+    .caja p{
+     width: 60%;
+	 font-size: 0.8em;
+	 text-align-last:center;
+	
+    }
+
+    .caja h1{
+	    width: 100%;
+	    padding: 25px;
+	    font-size: 1.55em;
+    }
+
+    .caja b{
+	    padding: 30px;
+	    font-size: 1.2em;
+    }
+
+    .images{
+        width: 60vw;
+        padding-bottom: 6px;
+    }
+
+}
+
+@media screen and(max-width:380px){
+
+    .caja p{
+     width: 70%;
+	 font-size: 0.9em;
+	 text-align-last:center;
+	
+    }
+
+    .caja h1{
+	    width: 100%;
+	    padding: 30px;
+	    font-size: 1.3em;
+    }
+
+    .caja b{
+	    padding: 25px;
+	    font-size: 1em;
+    }
+
+    .images{
+        width: 65vw;
+        padding-bottom: 3px;
+    }
+
+}
+@media screen and(max-height:378px){
+
+    .caja p{
+     width: 70%;
+	 font-size: 0.9em;
+	 text-align-last:center;
+	
+    }
+
+    .caja h1{
+	    width: 100%;
+	    padding: 20px;
+	    font-size: 1.4em;
+	    letter-spacing: 2px;
+    }
+
+    .caja b{
+	    padding: 15px;
+	    font-size: 1em;
+    }
+
+    .images{
+        width: 60vw;
+        padding-bottom: 2px;
+    }
+
+}
+
+/**********************************
+|        FIN DE RESPONSIVE         |
+ **********************************/
+
+
